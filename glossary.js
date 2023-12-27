@@ -88,7 +88,7 @@ const glossary = [
 {target:`無名関数`, content:`名前を持たない関数。通常、関数式として変数に代入されたり、高階関数の引数として渡されたりする`},
 {target:`API（Application Programing Interface）`, content:`ユーザーが色々なデータを利用できるようになる仕組み`},
 {target:`アロー関数`, content:`通常の関数式を簡潔に記述するための構文。(引数) => 返り値。(引数) => {return 返り値}。(引数1, 引数2) => 返り値。() => 返り値 など`},
-{target:`スプレット構文`, content:`配列やオブジェクト、文字列を展開する演算子。引数で利用すると実引数を配列で受け取る。<br>const arr = [1, 2, 3]; [...arr, 4, 5]→[1, 2, 3, 4, 5]<br>const func(…arg){}`},
+{target:`スプレッド構文（...）`, content:`配列やオブジェクト、文字列を展開する演算子。引数で利用すると実引数を配列で受け取る。<br>const arr = [1, 2, 3]; [...arr, 4, 5]→[1, 2, 3, 4, 5]<br>(...array) => array<br>const func(...arg){}<br>[...Array(5)]→undefined×5の配列を作成（繰り返し処理に利用可能）`},
 {target:`DOTYPE宣言`, content:`使用したいHTMLのバージョンをブラウザに伝えるコード`},
 {target:`html要素`, content:`Webページのルート要素。<head>と<body>が入る`},
 {target:`head要素`, content:`Webページを表示するのにブラウザが必要とするデータ（metadata）が入る`},
