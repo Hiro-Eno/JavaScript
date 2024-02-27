@@ -125,7 +125,7 @@ const glossary = [
 {target:`クラスベース`, content:`オブジェクト指向プログラミングのひとつ。オブジェクトの生成にクラスを用いるスタイルを指す。オブジェクトは、総じてクラスを実体化したインスタンスと定義される。Pythonなどで使用。`},
 {target:`this`, content:`現在のオブジェクトを指すキーワード。`},
 {target:`イテレータ―`, content:`要素を一つずつ順番に処理するオブジェクト。`},
-{target:`HTMLCollection`, content:`要素の汎用的な集合を表し、リストから選択するためのメソッドとプロパティを提供。名前とインデックスの両方で、自身のメンバーをプロパティとして直接公開。`},
+{target:`HTMLCollection`, content:`要素の汎用的な集合を表し、リストから選択するためのメソッドとプロパティを提供。名前とインデックスの両方で、自身のメンバーをプロパティとして直接公開。HTML DOM 内のこれは生きて (live) いる。そのため、元になった文書が変更された時点で自動的に更新される。document.formsで取得。<br>const collection = document.forms;`},
 {target:`NodeList`, content:`ノードの集合であり、 Node.childNodes などのプロパティやdocument.querySelectorAll() などのメソッドの返値として用いられる。NodeList には 生きたものと 静的なものの 2 種類ある。DOM が変化すると、自動的に集合が更新されることを生きた NodeListと呼ぶ。NodeList が静的なものの場合、DOM 内の変更が集合の内容に影響を与えない。document.querySelectorAll() メソッドは、静的な NodeList を返す。`},
 {target:`キャメルケース（camelCase）`, content:`先頭の単語だけ小文字にしてあとの単語の先頭は大文字にする。JavaScriptやJavaなどのプログラミング言語でよく使用されている。`},
 {target:`パスカルケース（PascalCase）`, content:`すべての単語の先頭が大文字になっている。アッパーキャメルケースとも呼ばれ、クラス名とかで使われている。`},
