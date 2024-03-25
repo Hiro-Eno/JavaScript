@@ -80,7 +80,7 @@ const glossary = [
 {target:`コールバック関数`, content:`他の関数に引数として渡される関数。<br>const square = function(x){return x * x};<br>const consoleLog = function(func, x){console.log(func(x))};<br>consoleLog(square, x); → 関数squareが引数として渡される`},
 {target:`クロージャ`, content:`関数が周囲のスコープにある変数を使って作成されると、その変数は関数と組み合され、関数は周囲のスコープを作っていた外側の関数が完了した後でも、その変数を利用できる。活用例：データプライバシー、同じような関数を容易にたくさん作る`},
 {target:`データプライバシー`, content:`グローバルスコープからアクセスできないように全体をスコープに入れて作る。そうするとローカル変数はグローバルスコープからアクセスできなくなる。`},
-"{target:`カプセル化`, content:`データと関数を一つのコンポーネントに閉じ込め、そのコンポーネントへのアクセスを制御することにより、そのオブジェクトを ""ブラックボックス"" にすること。ユーザは隠れた実装ではなくインターフェースを知っているだけで済む。`},"
+{target:`カプセル化`, content:`データと関数を一つのコンポーネントに閉じ込め、そのコンポーネントへのアクセスを制御することにより、そのオブジェクトを 'ブラックボックス' にすること。ユーザは隠れた実装ではなくインターフェースを知っているだけで済む。`},
 {target:`メソッド`, content:`オブジェクトのプロパティの値が関数のもの（オブジェクトは関数も格納可）。オブジェクトインスタンスごとに内蔵されたタスクとして実行されるインスタンスメソッドと、オブジェクトのコンストラクターで直接呼び出しを行うタスクである静的メソッドの2種類がある。<br>const obj = {<br>&emsp;foo: function () {<br>&emsp;},<br>&emsp;bar: function () {<br>&emsp;},<br>};<br>簡略型<br>const obj = {<br>&emsp;foo() {<br>&emsp;},<br>&emsp;bar() {<br>&emsp;},<br>};<br>const obj = {foo, bar}`},
 {target:`Array.prototype`, content:`JavaScript の配列オブジェクト (Array) のプロトタイプを指す。すべての配列インスタンスが共通して使用できるメソッドやプロパティが定義。`},
 {target:`String.prototype`, content:`JavaScript の文字列オブジェクト (String) のプロトタイプを指す。文字列インスタンスが共通して使用できるメソッドやプロパティが含まれる。`},
