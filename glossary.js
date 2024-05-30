@@ -2,7 +2,7 @@
 `use strict`
 const glossary = [
 {target:`算術演算子（operator）`, content:`記号や英数字によって構成された予約語で、データに対する演算内容を表す（+、-、*、/、%、**）。`},
-{target:`文字列型`, content:`’Hello world!'など文字列のデータ型。`},
+{target:`文字列型`, content:`'Hello world!'など文字列のデータ型。`},
 {target:`数値型`, content:`1、5、1.001など数値のデータ型。`},
 {target:`ブーリアン型`, content:`true、falseのデータ型。`},
 {target:`高水準言語`, content:`プログラミング言語のJavaScript、Python、C++など。`},
