@@ -113,6 +113,8 @@ const glossary = [
 {target:`selecter`, content:`CSSセレクターを指定する文字列。`},
 {target:`listener`, content:`指定されたイベント発生時に実行される関数。`},
 {target:`arg（引数）`, content:`引数の略称。関数やメソッドに渡される値として利用。`},
+{target:`truthy（真値）`, content:`論理値のコンテキストに現れた時に true とみなされる値のこと。偽値 (falsy) として定義された値 (null、undefined、false、NaN、0、-0、0n、'') を除くすべての値。<br>const removeFalsy = (array) => array.filter(x => (x) ? x: NaN); → 配列内の偽値を取り除く`},
+{target:`falsy（偽値）`, content:`論理型コンテキストに現れたときに偽とみなされる値。null、undefined、false、NaN、0、-0、0n、''。<br>const removeFalsy = (array) => array.filter(x => (x) ? x: NaN); → 配列内の偽値を取り除く`},
 {target:`再帰関数`, content:`関数が自身の定義内で自己参照的に呼び出されること。問題を小さな部分に分割し、解を組み立てるのに有用。`},
 {target:`再帰の深さ`, content:`再帰関数が自身を呼び出す深さ。深すぎる再帰はスタックオーバーフローを引き起こす可能性がある。`},
 {target:`スタック`, content:`プログラムが関数の呼び出しや変数の保持などの情報を一時的に保存するデータ構造。再帰関数が呼ばれるとスタックに新しいフレームが積まれる。`},
